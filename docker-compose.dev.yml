@@ -38,6 +38,7 @@ services:
       - VITE_API_URL=http://localhost:5000/graph
     volumes:
       - ./client:/app/
+      - /app/node_modules
 
   gateway:
     image: nginx

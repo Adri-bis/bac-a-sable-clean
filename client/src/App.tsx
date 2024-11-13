@@ -42,7 +42,7 @@ function App() {
 
   return (
     <main>
-      <h1>MON TITRE</h1>
+      <h1>MON TITRE EN GROS</h1>
       <button type="button" onClick={handleLogin}>
         LOGIN
       </button>
